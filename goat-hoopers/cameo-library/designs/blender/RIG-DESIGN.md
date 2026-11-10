@@ -136,18 +136,24 @@ outfit, proportions and style. All sheets live in `rig-sheets/`:
 
 | Sheet | Covers | Notes |
 |---|---|---|
-| `rig-sheets/rig-aidan.png` | Aidan | 5 poses + 5 expressions; glasses on in every view |
-| `rig-sheets/rig-kearns.png` | Kearns | Medal on in every view; volcano shout + brows-down set |
+| `rig-sheets/rig-aidan.png` | Aidan | Glasses on in every view; canonical-set (§8) regen QUEUED — see EMOTION-AUDIT.md |
+| `rig-sheets/rig-kearns.png` | Kearns | Medal on in every view; canonical emotion set (§8), Angry capped ~6/10 — regenerated 2026-11-10, volcano set retired |
 | `rig-sheets/rig-phil.png` | Phil + capybara | Capybara beside him in the neutral pose (its mini-rig, §5) |
 | `rig-sheets/rig-vann.png` | Vann | Smirk default, deadpan translator face; seated lean = whisper-gag receiver |
 | `rig-sheets/rig-tommy.png` | Tommy | Gold can in hand in the neutral pose; puffer blocking exact |
 | `rig-sheets/rig-griffin.png` | Griffin | Slumped couch sit + dejected close-up; no graduation items, ever |
 | `rig-sheets/rig-tyrese.png` | Tyrese | Drawn in the shared 3.5-head system per §3.8 — the canon render is an identity/outfit reference only (it drifted tall) |
 | `rig-sheets/rig-hiram.png` | Hiram | Teeth-grin default preserved; flat expression is the rare variant |
-| `rig-sheets/rig-hiram-chef.png` | Chef Hiram | Stern in every panel — no smile default (§3.9b); proportions in cast language |
+| `rig-sheets/rig-hiram-chef.png` | Chef Hiram | Stern DEFAULT (§3.9b) + full canonical emotion set (§8) — regenerated 2026-11-10; proportions in cast language |
 | `rig-sheets/rig-lord-lax.png` | Lord Lax | No expression row — bottom row is helmet states (level / down / whisper lean / up / shrug); cage interior black in every view, helmet never off |
-| `rig-sheets/rig-muse.png` | Muse | Hover poses + frosted-plate face states; no mouth interior, ever |
+| `rig-sheets/rig-muse.png` | Muse | Hover poses + frosted-plate face states; no mouth interior, ever; canonical-set (§8) regen QUEUED — see EMOTION-AUDIT.md |
 | `rig-sheets/rig-skeleton.png` | Base armature | The §1 skeleton drawn over the canon Aidan render (COG, spine chain, arm/leg chains, jaw point, eye line) |
 
 Status: awaiting Aidan's review, like the rest of the design pass. Nothing here authorizes
 building — the Mac build starts only after the design steps are approved.
+
+Emotion-set pass (2026-11-10, per §8): Kearns and Chef Hiram regenerated to the canonical
+set and verified panel by panel; Hiram substantially conforms (two gaps noted); Lord Lax
+conforms by design (helmet states, no face — ever). Aidan, Phil, Vann, Tommy, Griffin,
+Tyrese and Muse still carry the pre-canonical 5-expression rows and are queued for the
+same regeneration — full per-sheet verdicts in `rig-sheets/EMOTION-AUDIT.md`.
