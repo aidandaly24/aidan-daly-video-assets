@@ -13,6 +13,13 @@ All ten renders exist (earlier versions kept in `v1/` and `v2/`). Aidan reviewed
 tighter (§3.6; final v2 render accepted as-is), Tommy and Griffin slimmed twice, STOCKY ×1.22 →
 ×1.08 (§1.2, §3.5, §3.7), and Muse's render + spec replaced with his true avatar design (§3.1).
 
+**STYLE LOCK (Aidan, 2026-11-10 — "It's extremely important u don't deviate from style ever"):**
+the cast's render style (smooth stylized 3D, big expressive eyes, clean surfaces, stylized hair
+clumps) NEVER changes — not for accuracy, not for a variant, not for a new character. All
+character work is an EDIT anchored on the existing cast renders; never generate a character
+fresh from photos (two photo-based remodels drifted photoreal and were reverted the same day).
+Style consistency outranks photo accuracy, always.
+
 ---
 
 ## 1. GLOBAL STYLE RULES
@@ -211,17 +218,19 @@ face notes, and NEVER notes. Hexes not repeated here are in §1.5.
 ### 3.5 TOMMY — roster 3, SierraLeone RebelAlliance (`tommy.png`)
 - Silhouette: the widest casual silhouette — big rounded puffer jacket block, can in hand.
 - Proportions: STOCKY (height 166, torso width × 1.08 after Aidan's two 2026-11-10 slimming notes); roundest face of the cast (× 1.05).
-- Hair: dark brown #33200F CURLS — a mop of tight curls on top, shorter on the sides, no part
-  line. (Corrected 2026-11-10 from new photos Aidan sent: the v1–v3 renders' smooth wavy hair
-  was wrong — Tommy's hair is curly. Refs: `../../tommy-2.jpg`, `tommy-3.jpg`, `tommy-4.jpg`.)
+- Hair: medium brown #4A3220, wavy, 6 clumps, short back-and-sides with a soft fringe falling
+  forward-right; no part line. NOTE (Aidan, 2026-11-10): Tommy's real hair is curly (photos
+  `../../tommy-2.jpg`–`tommy-4.jpg`), but the photo-based remodel drifted off the cast style
+  and Aidan reverted it the same day ("switch Tommy back to what we had — I thought it was
+  good"). This wavy look is canon for the model; see STYLE LOCK.
 - Outfit: vintage Notre Dame puffer jacket — body ND navy #1E3050, sleeves and collar trim kelly
   green #1E9E4F, white #F5F2EC side/panel inserts and front placket, high collar popped; simple
   flat leprechaun patch shape on the left chest (green/white/gold shapes only, NO lettering);
   grey crew shirt underneath #6E6E6E; khaki pants #C9B18A; brown shoes #6E4525.
 - Props: plain gold drink can #E3A81E (unbranded cylinder, silver top) held in the right hand —
   his default hand prop, part of the model sheet.
-- Face notes: brown eyes; light brows; light chin/jaw stubble (from his photos); default mouth
-  = big friendly closed smile. Skin fair-pink #F0BE96.
+- Face notes: brown eyes; light brows; default mouth = big friendly closed smile. Skin
+  fair-pink #F0BE96.
 - NEVER: jacket never zipped-down-plain or replaced by a hoodie; no text/logos on jacket or can;
   never slim him down to STANDARD.
 
@@ -270,22 +279,24 @@ face notes, and NEVER notes. Hexes not repeated here are in §1.5.
 ### 3.9 HIRAM "PAPICHOOTER" — roster 7, NeuralNetanyahu (`hiram.png`)
 - Silhouette: the wall — widest shoulders, thickest arms, biggest grin.
 - Proportions: BROAD, tallest (178); arms visibly thicker (× 1.25); hands × 1.1.
-- Hair: black-brown #1C130E, WAVY and swept back — volume on top, shorter sides, defined
-  hairline. Beard = one sculpted mass #1C130E, FULL and neat — jaw + chin + connected
-  moustache, comparable fullness to Kearns'. (Corrected 2026-11-10 from a new photo Aidan sent,
-  `../../hiram-2.jpg`: the original spec's buzz cut was wrong — Hiram has a full head of hair
-  and a full beard.)
+- Hair: black-brown #1C130E BUZZ — a thin sculpted cap hugging the skull (0.04 head units thick),
+  sharp hairline. Beard = one sculpted mass #1C130E, trimmed, jaw + chin + moustache, shorter
+  than Kearns'. NOTE (Aidan, 2026-11-10): real Hiram has full wavy hair and a full beard
+  (`../../hiram-2.jpg`), but the photo-based remodel drifted off the cast style and was
+  reverted the same day. The buzz + trimmed beard here is canon; see STYLE LOCK.
 - Outfit: lavender polo #C5B3E6 with white #F5F2EC collar/placket trim, two buttons; brown belt
   #8A5A2B; navy pants #2E4A7A; brown shoes #6E4525.
-- Face notes: dark brown eyes; heaviest brows in the cast; default mouth = calm confident
-  closed smile (full teeth grin lives in the expression set). Skin warm tan #B57E52.
-- NEVER: polo never another color; never slim him; never buzz his hair or trim the beard down.
+- Face notes: dark brown eyes; heaviest brows in the cast; default mouth = full grin (teeth bar
+  visible — the only cast member whose default shows teeth). Skin warm brown #A9713F.
+- NEVER: polo never another color; never slim him; hair never grown out; grin is default —
+  don't neutralize him to a flat smile in the base model.
 
 ### 3.9b HIRAM — CHEF VARIANT (side model, `hiram-chef.png`)
 - Origin: the league group's suggestion, relayed by Aidan 2026-11-10 — "make him like Chef
   from Total Drama Island." A SIDE VERSION of Hiram for SOME scenes (kitchen/cooking bits,
   intimidation gags) — it never replaces the §3.9 base model.
-- Build: same head/face/beard as §3.9 on a much bigger frame — towering, heavily muscular
+- Build: an edit of the §3.9 base model (STYLE LOCK applies — an earlier photo-based chef
+  render drifted off-style and was discarded): same head/face/beard on a much bigger frame — towering, heavily muscular
   (arms × 1.5 vs base), tall white toque over his hair, white double-breasted chef's coat with
   sleeves pushed up, long white apron, dark pants, arms crossed, stern unimpressed default
   expression. He is the kitchen's final boss.

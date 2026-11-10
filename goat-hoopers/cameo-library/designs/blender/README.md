@@ -21,11 +21,12 @@ and approved by Aidan ("this is amazing") after three rounds of fixes.
 - v3 (current): Tommy/Griffin slimmed a further step (STOCKY torso ×1.22 → ×1.08 in spec);
   Muse regenerated from Aidan's actual avatar design — the frosted-face crystal, not the
   invented spiky golem in the v1/v2 renders (`archive/`).
-- Late additions (2026-11-10): Kearns' eyes corrected to blue; Tommy REMODELED from three new
-  photos Aidan sent (his hair is curly — the wavy-haired renders were wrong); Hiram remodeled
-  from a new photo (full wavy hair + full beard — the buzz-cut spec was wrong); plus
-  `hiram-chef.png`, a Chef-Hatchet-style side version of Hiram for kitchen/intimidation bits
-  (the league group's suggestion — see spec §3.9b).
+- Late additions (2026-11-10): Kearns' eyes corrected to blue (kept). Tommy and Hiram were
+  remodeled from new photos Aidan sent — both drifted OFF the cast's render style, and Aidan
+  reverted both the same day ("It's extremely important u don't deviate from style ever" —
+  see the STYLE LOCK in BLENDER-DESIGN.md). The photoreal attempts are in `archive/`; the
+  photos stay in the library. `hiram-chef.png` (Chef-Hatchet-style side version, the league
+  group's suggestion, spec §3.9b) was rebuilt as an in-style edit of the base Hiram.
 
 ## Key identity locks
 
