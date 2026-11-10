@@ -84,6 +84,10 @@ the home set — sits must work at couch height for every preset), point/shout/f
 standards, and the **whisper-gag staging**: Lax turns to Vann, head tilt + lean-in (no
 audio, no mouth — there is no face), Vann's reluctant-translator reaction set.
 
+*Set interaction (Step 2, 2026-11-10):* the Clubhouse couch is now designed —
+`sets/SETS-DESIGN.md`. Its seat plane is **45 cm (loaded)**, the height the §9 rig-sheet
+sits were blocked at; Step 3 validates every preset's sit on the actual couch (SETS §10).
+
 ## 7. Files and naming
 
 - Library file: `characters.blend` (one collection per character, linkable into scene

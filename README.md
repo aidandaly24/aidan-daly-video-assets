@@ -1,16 +1,17 @@
-# aidan-video-assets
+# aidan-daly-video-assets
 
 The saved-nicely home for every asset behind Aidan's videos — designs, renders, reference
 photos, specs and reusable pieces, versioned in one place.
 
 ## Layout
 
-- **`goat-hoopers/`** — GOAT Hoopers fantasy recap videos.
+- **`goat-hoopers/`** — GOAT Hoopers fantasy recap videos. **Production entry point:
+  [`goat-hoopers/README.md`](goat-hoopers/README.md)** — the pipeline, the skills, and
+  the design docs for making the videos yourself all start there.
   - `cameo-library/` — the members' reference photos + notes, the 2D design system, and
     `designs/blender/` — the locked 3D animated-sitcom cast (renders, lineup, build spec)
     that the Blender scene pipeline is built from. Start at
     `cameo-library/designs/blender/README.md`.
-- **`emperor-phil/`** — Emperor Phil's Slave Camp recap videos (design references, thumbnails).
 - **`general/`** — shared across every series:
   - `muse/` — Muse's identity: the avatar Aidan chose + the cast identity reference.
   - `music-pool.md` — the shared no-repeat music pool (a track used in ANY recap is burned).

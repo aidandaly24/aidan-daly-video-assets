@@ -49,8 +49,15 @@ and approved by Aidan ("this is amazing") after three rounds of fixes.
   base armature drawn over the canon Aidan render. Each sheet is an edit anchored on the
   canon render (STYLE LOCK) and is the §8 acceptance test in design form — see
   RIG-DESIGN.md §9.
+- **`sets/`** — the set designs (Step 2, 2026-11-10): `sets/SETS-DESIGN.md` is the spec;
+  set #1 is **The Clubhouse** living room — `clubhouse-plan.png` (floor plan + camera
+  plan), `clubhouse-wide.png`, `clubhouse-couch.png`, `clubhouse-tv.png`,
+  `clubhouse-kitchen.png`. Set renders are EMPTY of characters by design and were
+  generated in the cast's render world (STYLE LOCK).
 
 ## Next
 
-Sets get the same treatment (renders + spec in a `sets/` folder here) for Aidan's review
-before any Blender building starts.
+Step 2 (the Clubhouse) awaits Aidan's review, like the cast and rigs. After approval the
+design pass continues to Step 3 — pose/motion design, which validates the rig library
+against the Clubhouse couch (seat plane 45 cm, see SETS-DESIGN.md §4/§10). No Blender
+building starts until the design steps are approved.
