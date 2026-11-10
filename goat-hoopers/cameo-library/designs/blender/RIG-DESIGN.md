@@ -98,3 +98,29 @@ Each character passes a one-page pose sheet render — neutral, arms crossed, po
 shout/laugh, walk frame — checked against the canon renders for identity and style.
 No character enters a scene until their sheet passes. Chef Hiram and the capybara get
 sheets too.
+
+## 9. Rig sheets — the design package (2026-11-10)
+
+The §8 acceptance test, produced as design sheets for Aidan's review BEFORE any Blender
+building (these are design renders, not built rigs — the same sheets get re-rendered from
+the real rigs at build time and must match). Every sheet was generated as an edit anchored
+on the character's canon render in `final/` (STYLE LOCK), and QC'd against it for face,
+outfit, proportions and style. All sheets live in `rig-sheets/`:
+
+| Sheet | Covers | Notes |
+|---|---|---|
+| `rig-sheets/rig-aidan.png` | Aidan | 5 poses + 5 expressions; glasses on in every view |
+| `rig-sheets/rig-kearns.png` | Kearns | Medal on in every view; volcano shout + brows-down set |
+| `rig-sheets/rig-phil.png` | Phil + capybara | Capybara beside him in the neutral pose (its mini-rig, §5) |
+| `rig-sheets/rig-vann.png` | Vann | Smirk default, deadpan translator face; seated lean = whisper-gag receiver |
+| `rig-sheets/rig-tommy.png` | Tommy | Gold can in hand in the neutral pose; puffer blocking exact |
+| `rig-sheets/rig-griffin.png` | Griffin | Slumped couch sit + dejected close-up; no graduation items, ever |
+| `rig-sheets/rig-tyrese.png` | Tyrese | Drawn in the shared 3.5-head system per §3.8 — the canon render is an identity/outfit reference only (it drifted tall) |
+| `rig-sheets/rig-hiram.png` | Hiram | Teeth-grin default preserved; flat expression is the rare variant |
+| `rig-sheets/rig-hiram-chef.png` | Chef Hiram | Stern in every panel — no smile default (§3.9b); proportions in cast language |
+| `rig-sheets/rig-lord-lax.png` | Lord Lax | No expression row — bottom row is helmet states (level / down / whisper lean / up / shrug); cage interior black in every view, helmet never off |
+| `rig-sheets/rig-muse.png` | Muse | Hover poses + frosted-plate face states; no mouth interior, ever |
+| `rig-sheets/rig-skeleton.png` | Base armature | The §1 skeleton drawn over the canon Aidan render (COG, spine chain, arm/leg chains, jaw point, eye line) |
+
+Status: awaiting Aidan's review, like the rest of the design pass. Nothing here authorizes
+building — the Mac build starts only after the design steps are approved.

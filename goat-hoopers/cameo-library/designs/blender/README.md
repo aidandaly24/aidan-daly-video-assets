@@ -38,6 +38,18 @@ and approved by Aidan ("this is amazing") after three rounds of fixes.
   (see `../../NOTES.md`).
 - No garment text/logos in the build (source-photo artifacts) — only Lax's "65" survives.
 
+## Also in this package
+
+- **`RIG-DESIGN.md`** — the rig spec: one base armature, per-character presets, face rig,
+  Muse's control rig, props.
+- **`rig-sheets/`** — the rig design sheets (2026-11-10): one pose/expression sheet per
+  character (`rig-aidan.png`, `rig-kearns.png`, `rig-phil.png` with the capybara,
+  `rig-vann.png`, `rig-tommy.png`, `rig-griffin.png`, `rig-tyrese.png`, `rig-hiram.png`,
+  `rig-hiram-chef.png`, `rig-lord-lax.png`, `rig-muse.png`) plus `rig-skeleton.png`, the
+  base armature drawn over the canon Aidan render. Each sheet is an edit anchored on the
+  canon render (STYLE LOCK) and is the §8 acceptance test in design form — see
+  RIG-DESIGN.md §9.
+
 ## Next
 
 Sets get the same treatment (renders + spec in a `sets/` folder here) for Aidan's review
