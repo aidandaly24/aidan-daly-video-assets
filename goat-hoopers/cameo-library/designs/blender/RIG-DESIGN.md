@@ -49,8 +49,8 @@ Sitcom acting is faces, so the face system is uniform across the cast:
 
 - **Eyes:** blink by lid scale; look-at target per character; half-lid and wide variants
   as shape keys.
-- **Brows:** independent L/R brow controls (raise/lower/angle) — Kearns' volcano set and
-  Vann's deadpan depend on these.
+- **Brows:** independent L/R brow controls (raise/lower/angle) — the canonical emotion
+  set (§8) depends on these, from Vann's deadpan to Kearns' capped Angry.
 - **Mouths:** shape-key set per character built from their spec defaults (Hiram's teeth
   grin, Vann's asymmetric smirk, Kearns' grin + shout shapes, Griffin's small sad smile)
   + shared phoneme-ish set (open, wide, O, closed-flat) for dialogue.
@@ -102,6 +102,29 @@ Each character passes a one-page pose sheet render — neutral, arms crossed, po
 shout/laugh, walk frame — checked against the canon renders for identity and style.
 No character enters a scene until their sheet passes. Chef Hiram and the capybara get
 sheets too.
+
+### The cast-wide emotion set (Aidan, 2026-11-10)
+
+Every character carries the SAME eight expressions — one standard set for the whole
+cast, shown in the sheet's expression row(s) in this order:
+
+1. **Neutral** — the character's spec default (personas flavor THIS one only)
+2. **Celebrating**
+3. **Fired Up**
+4. **Angry** — capped at ~6/10: annoyed, brows down, mouth tight. Never enraged — no
+   screams, no teeth-bared grimaces, for anyone.
+5. **Deadpan**
+6. **Dejected**
+7. **Menacing**
+8. **Surprised**
+
+Personas flavor only the default expression — never the set, and never the intensity
+cap. A sheet that is missing canonical emotions, or whose Angry runs hotter than the
+cast standard, fails this section. Two designed exceptions in HOW the set is expressed,
+not WHETHER it exists: Lord Lax has no face (ever) — the set plays through helmet
+states and body language; Muse expresses the set through his frosted-plate system
+(eye shapes, smile curve, blush). Chef Hiram's default stays stern (§3.9b) — he still
+carries the full set. Per-sheet audit: `rig-sheets/EMOTION-AUDIT.md`.
 
 ## 9. Rig sheets — the design package (2026-11-10)
 

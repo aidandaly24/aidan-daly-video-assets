@@ -29,12 +29,22 @@ repo down and you can run an episode yourself — the docs assume a competent pe
 | `ASSET-GENERATION.md` | How the cast, rigs, voices, and graphics get made |
 | `skills/fantasy-recap-video-qc/` | Recap release-gates skill (snapshot, synced 2026-11-10) |
 | `skills/goat-hoopers-hype-video/` | Hype-video playbook skill (snapshot, synced 2026-11-10) |
-| `cameo-library/` | Reference photos + `NOTES.md`, the asset library root |
-| `cameo-library/designs/` | The 2D design system: `STYLE.md`, one file per person, `renders/` |
-| `cameo-library/designs/blender/` | The locked 3D animated-sitcom cast — start at its `README.md`; `BLENDER-DESIGN.md` is the build spec, `final/` the frozen renders, `RIG-DESIGN.md` + `rig-sheets/` the rig design |
+| `cameo-library/` | The asset library: reference photos + `NOTES.md` at the root |
+| `cameo-library/designs/` | The written design system: `STYLE.md` + one design file per person |
+| `cameo-library/designs/blender/` | The locked 3D animated-sitcom cast — start at its `README.md`; `BLENDER-DESIGN.md` is the build spec, `final/` holds the only copies of the approved renders, `RIG-DESIGN.md` + `rig-sheets/` the rig design, `sets/` the set designs |
+| `cameo-library/archive/` | Superseded versions (pre-Blender 2D renders, older lineups) — see `archive/INDEX.md` for what each file is and what replaced it |
 | `../general/music-pool.md` | The shared no-repeat music pool (Hoopers + Emperor) |
 | `../general/muse/` | Muse's identity refs (the avatar is Muse's canon design) |
-| `../emperor-phil/` | The sister series — same pipeline, its own folder |
+
+## What's NOT here yet
+
+- **No Blender model files exist yet** — no `.blend` / `.fbx` / `.glb` anywhere in the
+  repo. The cast and sets are designs (renders + specs + rig sheets + photos); the
+  models get built later from them and will be committed via Git LFS. See the root
+  README's "WHAT'S NOT HERE YET" section.
+- No video masters or upload encodes (workspace + Google Drive, by design).
+- The Emperor Phil series folder was removed 2026-11-10 at Aidan's direction; the
+  shared music pool in `../general/` still covers both series.
 
 ## The three rules that outrank everything else
 
@@ -44,6 +54,3 @@ repo down and you can run an episode yourself — the docs assume a competent pe
 - **The narrator is Muse,** never first-person-as-Aidan.
 - **STYLE LOCK:** never deviate from the cast's render style — all character work
   is an edit anchored on the canon renders in `cameo-library/designs/blender/final/`.
-
-Video masters and upload encodes are **not** in this repo by design (workspace +
-Google Drive); see the root README for the repo-wide rules.

@@ -10,8 +10,9 @@ and approved by Aidan ("this is amazing") after three rounds of fixes.
 - **`BLENDER-DESIGN.md`** — the full build spec: shared proportions, one base rig with build
   variants, per-character specs, palette, ban list. If a render and the spec disagree, the spec
   wins — except Muse, whose canon is the avatar design (see spec §3.1).
-- **Working renders** in this folder's root are the same images as `final/` (root = working
-  copies, `final/` = the frozen approved set).
+- **One copy of everything:** the root-level working duplicates of the `final/` renders
+  were removed in the 2026-11-10 repo cleanup — `final/` is the only home of the approved
+  renders. Superseded versions live in `archive/` (this folder) and `../../archive/`.
 
 ## Review history (2026-11-10)
 

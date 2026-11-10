@@ -2,13 +2,16 @@
 
 Status: DESIGN PACKAGE for Aidan's review (2026-11-10). No models have been built yet — nothing in this
 document is final until Aidan approves the concept renders.
-Supersedes: the photoreal/cinematic look in `../STYLE.md` and `../renders/` for all GENERATED SCENES.
+Supersedes: the photoreal/cinematic look in `../STYLE.md` and the archived 2D renders
+(`../../archive/designs/renders/`) for all GENERATED SCENES.
 Identity (faces, hair, signature outfits, props) carries over from `../<person>.md` and the reference
 photos — only the rendering style changes. Versus intros and footage edits are untouched by this doc.
 
-Concept renders in this folder: `muse.png`, `aidan.png`, `kearns.png`, `phil.png`, `vann.png`,
-`griffin.png`, `tyrese.png`, `hiram.png`, `lord-lax.png`, `tommy.png`, `cast-lineup.png`.
-All ten renders exist (earlier versions kept in `v1/` and `v2/`). Aidan reviewed the cast
+Concept renders — the approved set lives in `final/`: `final/muse.png`, `final/aidan.png`,
+`final/kearns.png`, `final/phil.png`, `final/vann.png`, `final/griffin.png`, `final/tyrese.png`,
+`final/hiram.png`, `final/lord-lax.png`, `final/tommy.png`, `final/cast-lineup.png` (plus
+`final/hiram-chef.png` and `final/muse-identity-ref.png`). Earlier versions are kept in
+`archive/v1/` and `archive/v2/` inside this folder. Aidan reviewed the cast
 2026-11-10 ("fucking great") with fixes, all applied in the current renders + spec: Vann's hair
 tighter (§3.6; final v2 render accepted as-is), Tommy and Griffin slimmed twice, STOCKY ×1.22 →
 ×1.08 (§1.2, §3.5, §3.7), and Muse's render + spec replaced with his true avatar design (§3.1).
@@ -195,7 +198,11 @@ face notes, and NEVER notes. Hexes not repeated here are in §1.5.
   Ø ≈ 0.28 head widths, gold #E3A81E metallic, on a red/white/blue ribbon
   (#C8102E / #F5F2EC / #1D3FAE) worn over the quarter-zip. Medal is ALWAYS on.
 - Face notes: BLUE eyes (Aidan's correction, 2026-11-10); thick reddish brows; default mouth = grin-ready smile. Skin fair #F2C49B.
-- Persona on the model sheet: volcano — his expression set leans hot (brows-down variants matter).
+- Default expression: the grin-ready smile — that is his Neutral, and it is the face his
+  sheet leads with. His Angry sits at the same mid intensity as the rest of the cast
+  (~6/10 — annoyed, brows down, mouth tight; no scream, no grimace). His expression set
+  is the cast-wide canonical set (RIG-DESIGN §8) — no hotter, no colder than anyone
+  else's. (Aidan, 2026-11-10: the earlier "volcano" persona direction is removed.)
 - NEVER: cap never backwards or off; medal never off; beard never black or longer than jaw-line;
   no logos/text anywhere on the build.
 
