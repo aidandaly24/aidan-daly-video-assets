@@ -1,0 +1,14 @@
+- griffin.jpg: graduation photo — when generating his cameos, REMOVE the cap and gown; face is the reference (Aidan, 2026-11-09).
+- aedan.jpg: center person in group photo — black quarter-zip, gold medal, black cap.
+- phil.jpg: red shirt, backwards cap, petting capybaras.
+- vann.jpg: curly hair, dark sweatshirt, green bar light.
+- tyrese.jpg: Tyrese (Aidan calls him "Robertson") — night boardwalk photo, striped shirt over white tee.
+- hiram.jpg: Hiram = papichooter (roster 7, NeuralNetanyahu) — night rooftop photo, lavender polo.
+- lord-lax.jpg: Lord Lax (roster 9) — lacrosse action shot, helmet obscures the face; cameos should lean into the lax gear/persona rather than facial likeness.
+- STANDING GAG (Aidan, 2026-11-09): Lord Lax is effectively MUTE in every video. Structure: someone asks LAX a question -> he whispers the answer into Vanns ear (inaudible) -> VANN delivers it aloud (reluctant translator). Never stage Lord Lax speaking directly. Applies to every video, at least once per video.
+- SCENE QUALITY BAR (Aidan, 2026-11-09): the generated scenes are storytelling — every scene needs a narrative point tied to the VO/storyline, visual continuity with the edit, and NO sloppy generations shipped (warped faces/hands, garbled text, identity drift): regenerate or restage instead.
+- SCENE STANDARD (Aidan, 2026-11-09, supersedes cutaway scoping): every member cameo is a full SCENE of 20+ seconds with a written comedy structure (setup -> bit -> payoff), league-specific humor — "funny like a Family Guy episode for the league." No cutaways, no silent reaction shots, no decorative appearances.
+- SCENE BAND + ANIME CARDS (Aidan, 2026-11-09): written comedy scenes run 20-45 seconds each. ADDITIONALLY every manager gets a short anime-intro-style animated figure card (Kuroko's Basketball aesthetic, from their reference photo, consistent art direction, name/team title treatment) — short is fine for these ONLY because everyone gets one. Style ref: workspace/user/files/12A80CAA-8295-42C5-86B9-9086EA8C20DE-photo-F16D66E2-3F5E-46F0-85AB-4F0C8DBD5D5D.jpg
+- ENSEMBLE CORRECTION (Aidan, 2026-11-09): scenes are ENSEMBLE — multiple managers together per scene, ~4-6 scenes total, NOT one solo scene per manager (no 12 separate scenes). Coverage = everyone appears across the ensemble scenes. Interaction/dialogue between managers is the comedy engine.
+- tommy-2.jpg / tommy-3.jpg / tommy-4.jpg (Aidan, 2026-11-10): additional Tommy identity refs — his hair is DARK CURLY (mop of tight curls), light chin stubble; the grey quarter-zip is just what he's wearing, not a costume lock. Blender Tommy remodeled from these.
+- hiram-2.jpg (Aidan, 2026-11-10): additional Hiram identity ref (black coat) — full wavy swept-back hair, full neat beard; supersedes the old buzz-cut assumption. Blender Hiram remodeled from this.

@@ -1,0 +1,5 @@
+# Video masters/encodes live in the workspace + Google Drive, not in git
+*.mp4
+*.mov
+*.mkv
+.DS_Store
