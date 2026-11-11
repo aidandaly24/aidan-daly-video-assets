@@ -1,0 +1,24 @@
+name: local_goat_hoopers_hype_video
+title: GOAT Hoopers Hype Video
+description: Produce a beat synced GOAT Hoopers hype video that passes personal final file verification before delivery.
+category: Media
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - ~/workspace/custom-skills/local-goat-hoopers-hype-video/SKILL.md revision 294d1ccc0052b8294d1645096c91013c2a5d9e61d62b2f706a704a17198c4660
+  - ~/workspace/custom-skills/local-goat-hoopers-hype-video/skill.yaml
+  - ~/workspace/custom-skills/local-fantasy-recap-video-qc/SKILL.md
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: The next hype video delivered in the window is verified personally on the final file before delivery, with ffprobe duration match within 0.5s at 1920 by 1080, frames checked in every team section and the closing, no overlapping or merged captions, no duplicated clips, and Aidan reports zero post-delivery defects of these types. Any user-caught defect of a checked type means the change has not succeeded.
+    window_days: 28
+  needs_review: false
+  rationale: 'The inventory marks this skill needs_review with the placeholder description ''Recovered local skill; review its instructions before reuse.'' Reading the full body shows a sound and distinct method that matches standing evidence elsewhere in the packet: the yt-dlp android client workaround and progressive throttling, music approval before editing, beat sheet discipline, and a personal final file verification protocol learned after the v5 and v7 builds falsely reported completion. Skill search confirms it does not duplicate the managed recap QC skill, which covers weekly recaps rather than hype videos. The fix is to complete the review by giving it a real description, the Media category and active managed status, and rewriting the body to the current skill template in bullet form while preserving its verified method, name corrections, team section spec, closing spec and delivery gate.'
+  review_after: 2026-11-13T15:45:21.442401+00:00
+  reviewed_at: 2026-10-16T15:45:21.442401+00:00
+  run_id: sirun_abd24d35ab284cc8a84e8c095ac2bb88

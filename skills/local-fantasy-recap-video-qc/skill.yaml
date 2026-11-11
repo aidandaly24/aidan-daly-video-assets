@@ -1,0 +1,32 @@
+name: local_fantasy_recap_video_qc
+title: Local fantasy recap video qc
+description: Run pre-script verification and final-master release gates for weekly fantasy league recap videos, produce them straight through without a script approval gate, and hold Emperor Phil recaps to a 5:30 to 6:30 runtime in the footage and music forward Hoopers recipe.
+category: Media
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:6835a08f
+  - message:9485d378
+  - message:19168ded
+  - message:072ee6ac
+  - message:71ce9c58
+  - message:551b3bd2
+  - message:198f015b
+  - message:13094b5c
+  - message:5d4fc97b
+  - message:d4c5877f
+  - /home/hatch/workspace/custom-skills/local-fantasy-recap-video-qc/SKILL.md revision ddbc9c5fd2efadfa7837bc403b1aa80d8aae0ad934f42a064b26976af0975987
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: Over the next two recap episodes delivered in the window, every delivery reports a burned track check against one shared Hoopers and Emperor list with zero repeat tracks, four to six ensemble cameo scenes of 20 to 45 seconds spread across the runtime with every member appearing and no solo or silent cameo, a versus intro before each previous week game segment, and the Lord Lax whisper gag timestamp with Vann translating. Aidan makes zero post-delivery corrections for a repeated song, cameos confined to slots or cutaways, anime rollcall intros, or a missing whisper gag.
+    window_days: 28
+  needs_review: false
+  review_after: 2026-12-08T00:41:03.390174+00:00
+  reviewed_at: 2026-11-10T00:41:03.390174+00:00
+  rationale: 'Reading the current managed skill at revision ddbc9c5fd2efadfa7837bc403b1aa80d8aae0ad934f42a064b26976af0975987 shows its music section checks artist exclusions but has no no-repeat rule, and it has no cameo scene, versus intro, cameo library, or Lord Lax gag rule at all. On 2026-11-09 the assistant proposed Nice For What, already used in Emperor Week 6, and Aidan answered in message 6835a08f that the same songs cannot be used, then rejected Yeah Glo in message 9485d378, which proves the two series need one shared burned pool rather than per series memory. The same build scoped cameos as three fixed slots and cutaways and Aidan corrected it repeatedly in messages 19168ded, 072ee6ac, 71ce9c58, 551b3bd2, 198f015b and 13094b5c to ensemble scenes woven throughout, multiple members interacting, 20 to 45 seconds, with Muse in the scenes. Message 5d4fc97b replaced anime rollcall cards with versus fight intros in a consistent per person design, approved in message d4c5877f. This update adds only those distinct Nov 9 mechanisms and their delivery gates, and does not re-propose the intro and outro, storyline spine, Game of the Week, or voice configuration rules already inside their measurement window. Checked and not proposed: the two failed cron runs in this window were coalesced sleeper-week4-request-desk occurrences, and the many generic terminal tool failures carry no shared detail naming a reusable method.'
+  run_id: sirun_61f9d9d4429e4bbeabcc7ff30788b0e4
